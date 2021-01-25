@@ -1,0 +1,66 @@
+// regole generali
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// regole body
+body{
+  font-family: sans-serif;
+}
+
+// regole container
+.conteiner{
+  position: relative;
+}
+
+// rogole header
+#header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  padding: 10px 10%;
+  background-color: #ffa500;
+
+  // regole link
+  a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+
+    &:hover{
+      color: #fff;
+    }
+  }
+
+}
+
+// regole contenuto pagina
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding-top: 50px;
+  background-color: #fff;
+}
+
+
+// regole footer
+#footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  padding: 10px 10%;
+  background-color: #808080;
+  color: #fff;
+}
